@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//creo la rauta y accedo a lmeto index del controlador
+Route::get('/users', 'UsersController@index'); 
+Route::get('/user/{id}', 'UsersController@getUser');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

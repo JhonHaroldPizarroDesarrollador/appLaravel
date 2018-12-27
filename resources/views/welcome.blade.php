@@ -93,6 +93,20 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+            <div class="content-fluid">
+                <div class="subcategories">
+                    <ul class="clearfix">
+                        <li>
+                            <div>
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <h5></h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </body>
 </html>
