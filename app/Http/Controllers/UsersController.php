@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-USE App\User;
+use App\User;
 
 class UsersController extends Controller
 {
-    public function index(Request $request){ 
+    public function index(Request $request){
         //ACCEDEMOS A LA BASE DE DATOS//
         $users = User::all();  // equivale a SELECT * FROM users
         //return $users;

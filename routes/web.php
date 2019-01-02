@@ -19,8 +19,26 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 //creo la rauta y accedo a lmeto index del controlador
-Route::get('/users', 'UsersController@index'); 
+Route::get('/users', 'UsersController@index');
 Route::get('/user/{id}', 'UsersController@getUser');
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/configuracion-base', 'DataScrapingController@configuracionbase');
+
+Route::post('data-scraping', 'DataScrapingController@getData')->name('test.store');
+
+
+Route::get('datascraping', 'DataScrapingController@index');
+Route::post('datascraping', 'DataScrapingController@store');
+
+Route::get('datascraping/create', 'DataScrapingController@create');
+Route::get('datascraping/{id}', 'DataScrapingController@show');
+
+
+Route::get('paginas-guardadas', 'DataScrapingController@index');
+Route::post('paginas-guardadas', 'DataScrapingController@store');
+
+
+//Route::get('/scraping', 'ScrapingController@example');
+
+
+Route::get('/scraping', 'ScrapingController@scraping');

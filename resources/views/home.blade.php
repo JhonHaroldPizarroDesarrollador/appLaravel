@@ -15,6 +15,21 @@
                     @endif
 
                     You are logged in!
+
+                    <button onclick="" id="makeScraping">make scraping</button>
+                    <div class="xray">
+                        <ul>
+                            <li>
+                                <div>
+                                    <a href="">
+                                        <img src="" alt="">
+                                    </a>
+                                </div>
+                                <h5>hola</h5>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
