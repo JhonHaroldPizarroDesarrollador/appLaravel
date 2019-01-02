@@ -1,0 +1,234 @@
+[
+    {
+        "rank": 1,
+        "title": "Show HN: Gorgeous SVG logos perfect for your README or credits page",
+        "url": "https://www.vectorlogo.zone/",
+        "points": 200,
+        "username": "Fileformat",
+        "comments": 3
+    },
+    {
+        "rank": 2,
+        "title": "Critical step found in DNA repair, cellular aging (2017)",
+        "url": "https://news.harvard.edu/gazette/story/2017/03/harvard-scientists-pinpoint-critical-step-in-dna-repair-cellular-aging/",
+        "points": 42,
+        "username": "dcu",
+        "comments": 1
+    },
+    {
+        "rank": 3,
+        "title": "How Facebook tracks you on Android [video]",
+        "url": "https://media.ccc.de/v/35c3-9941-how_facebook_tracks_you_on_android/",
+        "points": 201,
+        "username": "gala8y",
+        "comments": 5
+    },
+    {
+        "rank": 4,
+        "title": "Software Methodology: Why One Size Fits No One",
+        "url": "https://github.com/risk-first/website/wiki/One-Size-Fits-No-One",
+        "points": 17,
+        "username": "bobm_kite9",
+        "comments": 1
+    },
+    {
+        "rank": 5,
+        "title": "SchemaCrawler: Free database schema discovery and comprehension tool",
+        "url": "https://www.schemacrawler.com/index.html",
+        "points": 41,
+        "username": "based2",
+        "comments": 2
+    },
+    {
+        "rank": 6,
+        "title": "Show HN: I built a puzzle / programming challenge with a 0.125 BTC prize",
+        "url": "https://formapi.io/blog/posts/2018-bitcoin-programming-challenge/",
+        "points": 8,
+        "username": "nathan_f77",
+        "comments": 27
+    },
+    {
+        "rank": 7,
+        "title": "KubeDB – Run production-grade databases easily on Kubernetes",
+        "url": "https://kubedb.com/",
+        "points": 60,
+        "username": "openmaze",
+        "comments": 4
+    },
+    {
+        "rank": 8,
+        "title": "How the Valley treats its experienced people",
+        "url": "http://rachelbythebay.com/w/2018/12/29/age/",
+        "points": 350,
+        "username": "zdw",
+        "comments": 11
+    },
+    {
+        "rank": 9,
+        "title": "ResearchCoders: Make the world a better place by using your programming skills",
+        "url": "http://www.researchcoders.com/",
+        "points": 46,
+        "username": "maastaar",
+        "comments": 4
+    },
+    {
+        "rank": 10,
+        "title": "EU to fund bug bounty programs for open-source projects",
+        "url": "https://www.zdnet.com/article/eu-to-fund-bug-bounty-programs-for-14-open-source-projects-starting-january-2019/",
+        "points": 335,
+        "username": "svenfaw",
+        "comments": 15
+    },
+    {
+        "rank": 11,
+        "title": "Safe and Secure Drivers in High-Level Languages [video]",
+        "url": "https://media.ccc.de/v/35c3-9670-safe_and_secure_drivers_in_high-level_languages",
+        "points": 131,
+        "username": "DyslexicAtheist",
+        "comments": 9
+    },
+    {
+        "rank": 12,
+        "title": "Faire (YC W17) Is Looking for a Senior Product Designer",
+        "url": "https://boards.greenhouse.io/indigofair/jobs/4074505002?gh_jid=4074505002",
+        "points": 48,
+        "username": "hide",
+        "comments": null
+    },
+    {
+        "rank": 13,
+        "title": "Ion Propulsion – The Plane with No Moving Parts [video]",
+        "url": "https://www.youtube.com/watch?v=IorDYGI1uqc",
+        "points": 31,
+        "username": "rfreytag",
+        "comments": 4
+    },
+    {
+        "rank": 14,
+        "title": "Breaking all the Eggs in C++ (2015)",
+        "url": "http://scottmeyers.blogspot.com/2015/11/breaking-all-eggs-in-c.html",
+        "points": 22,
+        "username": "signa11",
+        "comments": 4
+    },
+    {
+        "rank": 16,
+        "title": "The Feynman Technique: The Best Way to Learn Anything (2012)",
+        "url": "https://fs.blog/2012/04/learn-anything-faster-with-the-feynman-technique/",
+        "points": 130,
+        "username": "NinjaX",
+        "comments": 11
+    },
+    {
+        "rank": 17,
+        "title": "Show HN: Bake – A modular build system and package manager for C/C++",
+        "url": "https://www.github.com/SanderMertens/bake",
+        "points": 113,
+        "username": "ajmmertens",
+        "comments": 10
+    },
+    {
+        "rank": 18,
+        "title": "CenturyLink 911 outage was caused by a single network card sending bad packets",
+        "url": "https://twitter.com/GossiTheDog/status/1079144491238469638",
+        "points": 103,
+        "username": "EamonnMR",
+        "comments": 3
+    },
+    {
+        "rank": 19,
+        "title": "A Cyclical Theory of Open Source",
+        "url": "https://redmonk.com/sogrady/2018/12/21/cycles-oss/",
+        "points": 38,
+        "username": "MilnerRoute",
+        "comments": 7
+    },
+    {
+        "rank": 20,
+        "title": "Attacking Chrome IPC [video]",
+        "url": "https://media.ccc.de/v/35c3-9579-attacking_chrome_ipc",
+        "points": 48,
+        "username": "DyslexicAtheist",
+        "comments": 9
+    },
+    {
+        "rank": 21,
+        "title": "A frugal social worker left $11M to children's charities in his will",
+        "url": "https://edition.cnn.com/2018/12/28/us/frugal-social-worker-leaves-millions-to-charity-trnd",
+        "points": 23,
+        "username": "monsieurpng",
+        "comments": 1
+    },
+    {
+        "rank": 22,
+        "title": "Show HN: Fincher, a steganography tool for text",
+        "url": "https://github.com/maxfierke/fincher",
+        "points": 15,
+        "username": "m4xm4n",
+        "comments": 4
+    },
+    {
+        "rank": 23,
+        "title": "Why a cocktail of microbes could give protection against disease",
+        "url": "https://www.theguardian.com/science/2018/dec/30/children-leukaemia-mel-greaves-microbes-protection-against-disease",
+        "points": 49,
+        "username": "zeristor",
+        "comments": 6
+    },
+    {
+        "rank": 24,
+        "title": "Let’s Talk About ‘Automation’ in Service Operations",
+        "url": "https://www.ckmadvisors.com/blog/post/28/",
+        "points": 15,
+        "username": "swingbridge",
+        "comments": 4
+    },
+    {
+        "rank": 25,
+        "title": "The Untold Story of the Grateful Dead's Short-Lived Wall of Sound",
+        "url": "https://motherboard.vice.com/en_us/article/wnnayb/the-wall-of-sound",
+        "points": 45,
+        "username": "braythwayt",
+        "comments": 10
+    },
+    {
+        "rank": 26,
+        "title": "EagleMode File Manager",
+        "url": "https://www.youtube.com/watch?v=G6yPQKt3mBA",
+        "points": 13,
+        "username": "ekianjo",
+        "comments": 1
+    },
+    {
+        "rank": 27,
+        "title": "The year in post-quantum crypto [video]",
+        "url": "https://media.ccc.de/v/35c3-9926-the_year_in_post-quantum_crypto",
+        "points": 47,
+        "username": "ianopolous",
+        "comments": 11
+    },
+    {
+        "rank": 28,
+        "title": "Austria is the next country working to impose a tech tax on companies like Apple",
+        "url": "https://9to5mac.com/2018/12/30/austria-tech-tax-apple/",
+        "points": 37,
+        "username": "sahin-boydas",
+        "comments": 3
+    },
+    {
+        "rank": 29,
+        "title": "Fluid Simulation (2007) [pdf]",
+        "url": "https://www.cs.ubc.ca/~rbridson/fluidsimulation/fluids_notes.pdf",
+        "points": 40,
+        "username": "strangecasts",
+        "comments": 9
+    },
+    {
+        "rank": 30,
+        "title": "Hackers Make a Fake Hand to Beat Vein Authentication",
+        "url": "https://motherboard.vice.com/en_us/article/59v8dk/hackers-fake-hand-vein-authentication-biometrics-chaos-communication-congress",
+        "points": 61,
+        "username": "pseudolus",
+        "comments": 15
+    }
+]
