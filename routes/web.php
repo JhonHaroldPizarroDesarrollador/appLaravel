@@ -34,11 +34,11 @@ Route::get('create-single', 'DataScrapingController@createSingle');
 Route::post('store-single', 'DataScrapingController@store');
 
 Route::get('create-pagination', 'DataScrapingController@createPagination');
+Route::post('store-pagination', 'DataScrapingController@storePagination');
+
 
 Route::get('datascraping/{id}', 'DataScrapingController@show');
-Route::post('datascraping/{id}', 'DataScrapingController@storePagination');
 
-Route::post('datascrapingpagination', 'DataScrapingController@storePagination');
 
 Route::get('paginas-guardadas', 'DataScrapingController@index');
 

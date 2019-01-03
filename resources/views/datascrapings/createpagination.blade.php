@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="col-md-12">
-        <form method="post" action="/datascrapingpagination" enctype="multipart/form-data">
+        <form method="post" action="/store-pagination" enctype="multipart/form-data">
             {{ csrf_field() }}
             <div class="form-group">
                 <label for="pagina">Pagina para hacer web scraping con goutte laravel:</label>

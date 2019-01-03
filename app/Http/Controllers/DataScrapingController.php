@@ -174,14 +174,15 @@ class DataScrapingController extends Controller{
         }
         while (!empty($validate) );
 
-        /*$datascrapings = Datascraping::all();
-        return view('datascrapings.index', [
-            'datascrapings' => $datascrapings
-        ]);*/
-        $datascraping = Datascraping::find($id);  // equivale a SELECT * FROM users where user=$id
-        $resultado = Resultado::find($id);  // equivale a SELECT * FROM users where user=$id
+        $datascrapings = Datascraping::all();
+        $datascrapingid = Datascraping::find($insertedId);  // equivale a SELECT * FROM users where user=$id
+        $resultado = Resultado::all();  // equivale a SELECT * FROM users where user=$id
         //return $datascraping;
-        return view('datascrapings.index', ['datascraping' => $datascraping, 'resultados' => $resultado]);
+        return view('datascrapings.index', [
+            'datascrapings' => $datascrapings,
+            'datascrapingid' => $datascrapingid,
+            'resultados' => $resultado
+        ]);;
     }
 
 
