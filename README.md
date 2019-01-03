@@ -8,4 +8,5 @@ App Laravel- Web Scraping -  Goutter
 4. Para iniciar la app debes ejecutar el comando: php artisan serve ,  o el comando :  npm start
 5. Para hacer scraping en una web que los productos de la categoria salgan en una sola pagina Ingresar a la url: http://127.0.0.1:8000/create-single , aqui encontramos el fomulario donde se hay que pasar los parametros neccesarios para hacer el scraping.
 5. Para hacer scraping en una web que los productos de la categoria salgan en una varias paginas Ingresar a la url: http://127.0.0.1:8000/create-pagination , aqui encontramos el fomulario donde se hay que pasar los parametros neccesarios para hacer el scraping.
-6. Queda pendiente validar que solo un usuario registrado pueda hacer el sacraping
+6. El parametro para la paginacion se toma del enlace del boton next page en la paginacion
+7. Queda pendiente validar que solo un usuario registrado pueda hacer el sacraping
