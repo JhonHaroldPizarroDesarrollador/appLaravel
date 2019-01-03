@@ -1,5 +1,5 @@
 # appLaravel
-App Laravel- Web Scraping -  Goutter 
+App Laravel- Web Scraping -  Goutter Symphony
 
 
 1. Clonar el Repositorio
