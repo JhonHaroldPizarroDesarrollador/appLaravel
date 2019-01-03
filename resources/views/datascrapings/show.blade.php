@@ -14,6 +14,15 @@
                 <li><?= $datascraping->url; ?></li>
 
             </ul>
+            @foreach ($resultados as $resultado )
+            <a href="<?= $resultado->url ;?>">
+                <p><?= $resultado->id ;?></p>
+                <p><?= $resultado->nombre ;?></p>
+                <p><?= $resultado->precio ;?></p>
+                <img src="<?= $resultado->imagen ;?>">
+            </a>
+            <br>
+            @endforeach
         </div>
     </div>
 </div>

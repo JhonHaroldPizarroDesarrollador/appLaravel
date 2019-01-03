@@ -22,19 +22,26 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/users', 'UsersController@index');
 Route::get('/user/{id}', 'UsersController@getUser');
 
-Route::get('/configuracion-base', 'DataScrapingController@configuracionbase');
 
-Route::post('data-scraping', 'DataScrapingController@getData')->name('test.store');
+Route::get('resultados', 'DataScrapingController@index');
 
 
-Route::get('datascraping', 'DataScrapingController@index');
-Route::post('datascraping', 'DataScrapingController@store');
+Route::get('create', 'DataScrapingController@create');
+Route::post('store', 'DataScrapingController@store');
 
-Route::get('datascraping/create', 'DataScrapingController@create');
+
+Route::get('create-single', 'DataScrapingController@createSingle');
+Route::post('store-single', 'DataScrapingController@store');
+
+Route::get('create-pagination', 'DataScrapingController@createPagination');
+
 Route::get('datascraping/{id}', 'DataScrapingController@show');
+Route::post('datascraping/{id}', 'DataScrapingController@storePagination');
 
+Route::post('datascrapingpagination', 'DataScrapingController@storePagination');
 
 Route::get('paginas-guardadas', 'DataScrapingController@index');
+
 Route::post('paginas-guardadas', 'DataScrapingController@store');
 
 
@@ -42,3 +49,9 @@ Route::post('paginas-guardadas', 'DataScrapingController@store');
 
 
 Route::get('/scraping', 'ScrapingController@scraping');
+
+Route::get('/scraping-single', 'ScrapingController@scrapingSingle');
+
+Route::get('/scraping-ebay', 'ScrapingController@scrapingEbay');
+
+Route::get('/scraping-linio', 'ScrapingController@scrapingLinio');

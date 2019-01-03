@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="col-md-12">
-        <form method="post" action="/store" enctype="multipart/form-data">
+        <form method="post" action="/datascrapingpagination" enctype="multipart/form-data">
             {{ csrf_field() }}
             <div class="form-group">
                 <label for="pagina">Pagina para hacer web scraping con goutte laravel:</label>
@@ -29,9 +29,10 @@
                 <label for="precio">Precio:</label>
                 <input type="text" class="form-control" id="precio" name="precio">
             </div>
-
-
-
+            <div class="form-group">
+                <label for="pagination">Paginacion:</label>
+                <input type="text" class="form-control" id="pagination" name="pagination">
+            </div>
             <button class="btn btn-primary" id="ajaxSubmit" name="ajaxSubmit" >Submit</button>
         </form>
     </div>

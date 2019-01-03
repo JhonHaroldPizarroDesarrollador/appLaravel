@@ -36,4 +36,7 @@ class User extends Authenticatable
         return $this->hasMany('App\Datascraping');
     }
 
+    public function resultado(){
+        return $this->hasMany('App\Resultado');
+    }
 }
